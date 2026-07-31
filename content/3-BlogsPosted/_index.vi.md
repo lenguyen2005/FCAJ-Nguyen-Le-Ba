@@ -6,7 +6,7 @@ chapter: false
 pre: " <b> 3. </b> "
 ---
 
-Tại đây sẽ là phần liệt kê, giới thiệu các blogs mà các bạn đã đăng trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj). Ví dụ:
+Các blog mà nhóm mình đã post trên [AWS Study Group](https://www.facebook.com/groups/awsstudygroupfcj):
 
 ###  [Blog 1 - Secure Multi-Tenant RAG với Amazon Bedrock và Verified Permissions](3.1-Blog1/)
 Blog này giới thiệu giải pháp phân quyền truy cập tài liệu đa người dùng (Multi-Tenant) trong kiến trúc RAG bằng cách kết hợp Amazon Bedrock Knowledge Bases và Amazon Verified Permissions (ngôn ngữ Cedar), giúp tối ưu chi phí hạ tầng và đảm bảo an toàn dữ liệu 2 lớp theo nguyên tắc Defense in Depth.
