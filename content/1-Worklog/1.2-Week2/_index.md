@@ -19,7 +19,7 @@ pre: " <b> 1.2. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
 | Mon | - Learn about AWS budget <br>&emsp; + Cost Budget <br>&emsp; + Usage Budget <br>&emsp; + RI Budget <br>&emsp; + Saving Plans Budget<br>                                                     | 06/16/2026 | 06/16/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | Tue | - Learn about AWS Identity and Access Management (IAM)                                                                                                                                      | 06/17/2026 | 06/17/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| Thu | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br> - Methods for remote SSH into EC2 <br> - Learn about Elastic IP   <br>                                | 08/18/2026 | 08/18/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Wed, Thu | - Learn basic EC2: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br> - Methods for remote SSH into EC2 <br> - Learn about Elastic IP   <br>                                | 08/18/2026 | 08/18/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | Fri | - **Practice:** <br>&emsp; + Create EC2 instance <br>&emsp; + SSH connection <br>&emsp; + Attach EBS volume                                                                                 | 08/19/2026 | 08/19/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 

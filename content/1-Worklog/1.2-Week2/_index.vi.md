@@ -19,7 +19,7 @@ pre: " <b> 1.2. </b> "
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
 | 2   | - Tìm hiểu về AWS budget <br>&emsp; + Cost Budget <br>&emsp; +Usage Budget <br>&emsp; + RI Budget <br>&emsp; + Sanving Plans Budget<br>                                                     | 16/06/2026   | 16/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 3   | - Tìm hiểu về AWS Identity and Access Management (IAM)                                                                                                                                      | 17/06/2026   | 17/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 18/08/2026   | 18/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 4, 5   | - Tìm hiểu EC2 cơ bản: <br>&emsp; + Instance types <br>&emsp; + AMI <br>&emsp; + EBS <br> - Các cách remote SSH vào EC2 <br> - Tìm hiểu Elastic IP   <br>                  | 18/08/2026   | 18/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
 | 6   | - **Thực hành:** <br>&emsp; + Tạo EC2 instance <br>&emsp; + Kết nối SSH <br>&emsp; + Gắn EBS volume                                                                                         | 19/08/2026   | 19/08/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 

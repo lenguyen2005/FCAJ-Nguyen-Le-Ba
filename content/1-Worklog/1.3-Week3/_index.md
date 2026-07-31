@@ -13,8 +13,8 @@ pre: " <b> 1.3. </b> "
 ### Tasks to be implemented this week:
 | Day   | Task                                                                                                                                                                                        | Start Date | Completion Date | Reference Materials                       |
 | ----- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | --------------- | ----------------------------------------- |
-| Tue,Wed | - Learn about Amazon Relational Database Service (RDS)                                                                                                                                      | 06/23/2026 | 06/24/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| Sat   | - Learn about Amazon DynamoDB                                                                                                                                                               | 06/27/2026 | 06/27/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Mon, Tue, Wed | - Learn about Amazon Relational Database Service (RDS)                                                                                                                                      | 06/23/2026 | 06/24/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| Thu, Fri   | - Learn about Amazon DynamoDB                                                                                                                                                               | 06/27/2026 | 06/27/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Achievements in Week 3:

@@ -17,7 +17,7 @@ pre: " <b> 1.5. </b> "
 | Mon | - Initialize NestJS project <br> - Build basic module structure (Auth, User, Document) | 07/06/2026 | 07/06/2026 | <https://docs.nestjs.com/> |
 | Tue | - Write multi-stage Dockerfile for NestJS <br> - Test local image build | 07/07/2026 | 07/07/2026 | |
 | Wed | - Create Amazon ECR Repository <br> - Push Docker image to ECR for the first time | 07/08/2026 | 07/08/2026 | <https://docs.aws.amazon.com/ecr/> |
-| Thu-Fri | - Set up GitHub Actions Workflow: build → push ECR → deploy ECS <br> - Configure IAM Role for GitHub Actions (OIDC) | 07/09/2026 | 07/10/2026 | <https://docs.github.com/en/actions> |
+| Thu, Fri | - Set up GitHub Actions Workflow: build → push ECR → deploy ECS <br> - Configure IAM Role for GitHub Actions (OIDC) | 07/09/2026 | 07/10/2026 | <https://docs.github.com/en/actions> |
 
 ### Achievements in Week 5:
 

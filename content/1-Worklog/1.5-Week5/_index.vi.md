@@ -17,7 +17,7 @@ pre: " <b> 1.5. </b> "
 | 2   | - Khởi tạo project NestJS <br> - Xây dựng cấu trúc module cơ bản (Auth, User, Document) | 6/07/2026 | 6/07/2026 | <https://docs.nestjs.com/> |
 | 3   | - Viết Dockerfile multi-stage cho NestJS <br> - Test build image local | 7/07/2026 | 7/07/2026 | |
 | 4   | - Tạo Amazon ECR Repository <br> - Đẩy Docker image lên ECR lần đầu | 8/07/2026 | 8/07/2026 | <https://docs.aws.amazon.com/ecr/> |
-| 5-6 | - Thiết lập GitHub Actions Workflow: build → push ECR → deploy ECS <br> - Cấu hình IAM Role cho GitHub Actions (OIDC) | 9/07/2026 | 10/07/2026 | <https://docs.github.com/en/actions> |
+| 5, 6 | - Thiết lập GitHub Actions Workflow: build → push ECR → deploy ECS <br> - Cấu hình IAM Role cho GitHub Actions (OIDC) | 9/07/2026 | 10/07/2026 | <https://docs.github.com/en/actions> |
 
 ### Kết quả đạt được tuần 5:
 

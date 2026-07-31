@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 | 2 | - Hoàn thiện kiến trúc AWS <br> - Vẽ sơ đồ kiến trúc tổng thể bằng eraser.io | 27/07/2026 | 27/07/2026 | |
 | 3 | - Thiết kế sơ đồ kiến trúc và bổ sung hình ảnh minh họa | 28/07/2026 | 28/07/2026 | |
 | 4 | - Viết tài liệu Workshop bằng Hugo | 29/07/2026 | 29/07/2026 | <https://gohugo.io/> |
-| 5 | - Hoàn thiện phiên bản tiếng Việt và tiếng Anh <br> - Deploy Workshop lên GitHub Pages và kiểm tra lần cuối | 30/07/2026 | 30/07/2026 | |
+| 5, 6 | - Hoàn thiện phiên bản tiếng Việt và tiếng Anh <br> - Deploy Workshop lên GitHub Pages và kiểm tra lần cuối | 30/07/2026 | 30/07/2026 | |
 
 ### Kết quả đạt được tuần 8:
 

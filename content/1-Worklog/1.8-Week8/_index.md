@@ -17,7 +17,7 @@ pre: " <b> 1.8. </b> "
 | Mon | - Finalize AWS architecture <br> - Draw the overall architecture diagram using eraser.io | 07/27/2026 | 07/27/2026 | |
 | Tue | - Design architecture diagram and add illustrative images | 07/28/2026 | 07/28/2026 | |
 | Wed | - Write Workshop documentation using Hugo | 07/29/2026 | 07/29/2026 | <https://gohugo.io/> |
-| Thu | - Finalize both Vietnamese and English versions <br> - Deploy Workshop to GitHub Pages and perform final checks | 07/30/2026 | 07/30/2026 | |
+| Thu, Fri | - Finalize both Vietnamese and English versions <br> - Deploy Workshop to GitHub Pages and perform final checks | 07/30/2026 | 07/30/2026 | |
 
 ### Achievements in Week 8:
 

@@ -13,8 +13,8 @@ pre: " <b> 1.3. </b> "
 ### Các công việc cần triển khai trong tuần này:
 | Thứ | Công việc                                                                                                                                                                                   | Ngày bắt đầu | Ngày hoàn thành | Nguồn tài liệu                            |
 | --- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ | --------------- | ----------------------------------------- |
-| 3,4   | - Tìm hiểu về Amazon Relational Database Service (RDS)                             | 23/06/2026   | 24/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
-| 6   | - Tìm hiểu về Amazon DynamoDB | 27/06/2026   | 27/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 2, 3, 4   | - Tìm hiểu về Amazon Relational Database Service (RDS)                             | 23/06/2026   | 24/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
+| 5, 6   | - Tìm hiểu về Amazon DynamoDB | 27/06/2026   | 27/06/2026      | <https://cloudjourney.awsstudygroup.com/> |
 
 
 ### Kết quả đạt được tuần 3:
