@@ -27,5 +27,4 @@ Trong suốt thời gian thực tập tại chương trình FCAJ từ **[1/06/20
 
 ### Cần cải thiện
 * Cải thiện trong cách tư duy giải quyết vấn đề, mình cần chủ động hơn trong việc tìm kiếm câu trả lời không chỉ ở tài liệu mà còn là các anh chị mentor.
-* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống
-* Trong một buổi lên công ty mình đã có chút xao nhãng và sử dụng điện thoại trong giờ làm việc, đây là hành vi không nên có trong một môi trường chuyên nghiệp, mình hứa sẽ sửa lỗi này và sẽ không tái phạm
+* Học cách giao tiếp tốt hơn trong giao tiếp hằng ngày và trong công việc, xử lý tình huống.
