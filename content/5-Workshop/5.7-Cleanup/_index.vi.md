@@ -11,7 +11,7 @@ pre : " <b> 5.7. </b> "
 2. Chọn Cluster edushare-cluster
 3. Ở tab Services, sau đó bấm *delete*
 
-![Cluster Clean up](/images/5-Workshop/5.7-Cleanup/CleanUp_Cluster.png)
+![Cluster Clean up](/images/5-Workshop/5.7-Cleanup/Cleanup_Cluster.png)
 
 #### Dọn dẹp Load Balancer và Target Groups
 1. Ở cột trái, vào Load balancers, tick chọn edushare-alb, chọn Action và Delete load balancer.
