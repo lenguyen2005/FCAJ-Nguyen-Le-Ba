@@ -7,11 +7,11 @@ chapter: false
 
 # Báo cáo thực tập
 ### Thông tin sinh viên:
-&emsp; **Họ và tên:** Lê Gia Bảo
+&emsp; **Họ và tên:** Lê Bá Nguyễn
 
-&emsp; **Số điện thoại:** 0343922991
+&emsp; **Số điện thoại:** 0825641516
 
-&emsp; **Email:** bao.le2005k23@hcmut.edu.vn
+&emsp; **Email:** nguyen.lelbn@hcmut.edu.vn
 
 &emsp; **Trường:** Đại học Bách khoa Thành phố Hồ Chí Minh
 

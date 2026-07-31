@@ -9,11 +9,11 @@ chapter: false
 # Internship Report
 
 ### Student Information:
-&emsp; **Full Name:** Le Gia Bao
+&emsp; **Full Name:** Le Ba Nguyen
 
-&emsp; **Phone Number:** 0343922991 
+&emsp; **Phone Number:** 0825641516
 
-&emsp; **Email:** bao.le2005k23@hcmut.edu.vn
+&emsp; **Email:** nguyen.lelbn@hcmut.edu.vn
 
 &emsp; **University:** Ho Chi Minh City University of Technology
 
