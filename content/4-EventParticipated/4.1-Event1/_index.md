@@ -141,4 +141,4 @@ The speakers not only shared technical knowledge but also conveyed professional 
 
 For me, this event was not only an opportunity to stay updated with the latest technology trends and solutions but also a chance to reflect on my own career path. It reinforced the importance of building a strong technical foundation, developing systems thinking, embracing lifelong learning, and continuously contributing meaningful value to the technology community and the digital transformation of Vietnam.
 
-![Group Photo](/images/4-Events/4.3-Event3/tap-the.jpg)
+![Group Photo](/images/4-Events/4.1-Event1/tap-the.jpg)

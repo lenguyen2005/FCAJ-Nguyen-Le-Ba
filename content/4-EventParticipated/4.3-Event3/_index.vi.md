@@ -3,7 +3,7 @@ title: "Event 3"
 date: 2026-06-01
 weight: 1
 chapter: false
-pre: " <b> 4.1. </b> "
+pre: " <b> 4.3. </b> "
 ---
 
 # Bài thu hoạch "Event Day - Giao lưu hàng tuần FCAJ - 06/06/2026"

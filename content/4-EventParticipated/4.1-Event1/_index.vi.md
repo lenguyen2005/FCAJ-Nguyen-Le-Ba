@@ -137,4 +137,4 @@ Các diễn giả không chỉ chia sẻ kiến thức kỹ thuật mà còn tru
 
 Đối với mình, đây không chỉ là cơ hội để cập nhật những xu hướng và giải pháp công nghệ mới mà còn là dịp để nhìn nhận rõ hơn con đường phát triển bản thân: xây dựng nền tảng kỹ thuật vững chắc, rèn luyện tư duy hệ thống, không ngừng học hỏi và từng bước đóng góp nhiều giá trị hơn cho cộng đồng cũng như sự phát triển của ngành công nghệ tại Việt Nam.
 
-![Ảnh tập thể](/images/4-Events/4.3-Event3/tap-the.jpg)
+![Ảnh tập thể](/images/4-Events/4.1-Event1/tap-the.jpg)

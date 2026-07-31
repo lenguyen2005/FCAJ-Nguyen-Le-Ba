@@ -39,4 +39,3 @@ Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là
 &emsp;**Hình thức:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Bến Nghé, Quận 1, TP. HCM
   
 &emsp;**Vai trò trong sự kiện:** Người tham dự
----
