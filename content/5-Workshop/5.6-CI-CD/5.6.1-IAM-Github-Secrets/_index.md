@@ -6,15 +6,6 @@ chapter : false
 pre : " <b> 5.6.1 </b> "
 ---
 
----
-
-title : "IAM User & GitHub Secrets"
-date : 2026-07-30
-weight : 1
-chapter : false
-pre : " <b> 5.6.1 </b> "
-------------------------
-
 #### Create an IAM User for GitHub Actions
 
 To allow GitHub Actions to securely push Docker images to Amazon ECR and update Amazon ECS services, we need to create a dedicated IAM User with access through an Access Key.
@@ -59,4 +50,4 @@ To allow GitHub Actions to securely push Docker images to Amazon ECR and update 
    * `AWS_SECRET_ACCESS_KEY`: Paste the corresponding **Secret Access Key**.
    * `NEXT_PUBLIC_API_URL`: The DNS address of the **Application Load Balancer (ALB)** (for example, `https://api.edushare.com`) used during the Frontend build process.
 
-![github-secrets](/images/5-Workshop/5.6-CICD/github_secrets.png)
+![github-secrets](/images/5-Workshop/5.6-CI-CD/github_secrets.png)

@@ -13,7 +13,7 @@ Chúng ta cần tạo hai **Elastic Container Registry (ECR)** riêng tư (Priva
 1. Truy cập **Amazon ECR Console**.
 2. Trong thanh điều hướng bên trái, chọn **Repositories**, sau đó nhấn **Create repository**.
 
-![ecr-create](/images/5-Workshop/5.6-CICD/create_ecr.png)
+![ecr-create](/images/5-Workshop/5.6-CI-CD/create_ecr.png)
 
 3. Tạo Repository cho **Backend**:
    + **Visibility settings:** **Private**

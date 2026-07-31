@@ -12,7 +12,7 @@ We need to create two private Elastic Container Registry (ECR) repositories to s
 1. Open the **Amazon ECR Console**.
 2. In the left navigation pane, choose **Repositories**, then click **Create repository**.
 
-![ecr-create](/images/5-Workshop/5.6-CICD/create_ecr.png)
+![ecr-create](/images/5-Workshop/5.6-CI-CD/create_ecr.png)
 
 3. Create the **Backend** Repository:
 + Visibility settings: **Private**

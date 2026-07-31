@@ -45,4 +45,4 @@ pre : " <b> 5.6.1 </b> "
    + `AWS_SECRET_ACCESS_KEY`: Dán **Secret Access Key** tương ứng.
    + `NEXT_PUBLIC_API_URL`: Địa chỉ DNS của **Application Load Balancer (ALB)** (ví dụ: `https://api.edushare.com`) được sử dụng trong quá trình build Frontend.
 
-![github-secrets](/images/5-Workshop/5.6-CICD/github_secrets.png)
+![github-secrets](/images/5-Workshop/5.6-CI-CD/github_secrets.png)
