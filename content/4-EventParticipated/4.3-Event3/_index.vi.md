@@ -1,38 +1,70 @@
 ---
 title: "Event 3"
-date: 2024-01-01
-weight: 3
+date: 2026-06-01
+weight: 1
 chapter: false
-pre: " <b> 4.3. </b> "
+pre: " <b> 4.1. </b> "
 ---
 
-# Bài thu hoạch “Event Day - 13/06/2026”
-### Mục Đích Của Sự Kiện
-Đây là sự kiện trao đổi giao lưu hàng tuần của chương trình FCAJ, diễn ra vào mỗi thứ 7. Đây là cũng là event đầu tiên mà mình tham dự kể từ khi gia nhập FCAJ. Event này nhằm mục tiêu giúp các thành viên đang tham gia FCAJ có những góc nhìn mới hơn về các sản phẩm, giải pháp, công nghệ được áp dụng trong thực tế, cũng như có cơ hội giao lưu với các anh chị đi trước đã có kinh nghiệm làm việc trong ngành điện toán đám mây.
+# Bài thu hoạch "Event Day - Giao lưu hàng tuần FCAJ - 06/06/2026"
 
-### Danh Sách Diễn Giả
-Danh sách diễn giả trong sự kiện bao gồm : 
-- Anh Phạm Thành Đạt, hiện đang làm việc tại Colgate chia sẻ về hành trình trở thành Data Analyst của mình.
-![Anh Nhật chia sẻ về kinh nghiệm Data Analyst](/images/4-Events/4.3-Event3/ANhat.jpg)
-- Anh Cường cũng hiện đang làm việc tại Colgate với chủ đề vô cùng đặc sắc, "văn hóa doanh nghiệp".
-![Anh Cường chia sẻ về kinh nghiệm DevOps](/images/4-Events/4.3-Event3/ACuong.jpg)
-- Anh Trương Hoàng Trọng chia sẻ góc nhìn và các khái niệm quan trọng của DevOps.
+## Mục Đích Của Sự Kiện
 
-### Nội Dung Nổi Bật
-Tất cả những diễn giả trong buổi event đều vô cùng xuất xắc với chủ đề riêng của mình. Tuy nhiên chắc chắc phần trình bày của anh Cường để lại nhiều ấn tượng với mình nhất. Chủ đề của anh Cường xoay quanh "văn hóa doanh nghiệp" không liên quan gì đến kỹ thuật, nhưng nó lại vô cùng hữu ích cho bản thân mình khi đang trong quá trình tìm kiếm công việc mơ ước. 
+Đây là sự kiện giao lưu hàng tuần của chương trình FCAJ nhằm giúp các thành viên cập nhật các công nghệ mới, lắng nghe chia sẻ từ những kỹ sư đang làm việc trong ngành Cloud Computing và có cơ hội giao lưu, học hỏi kinh nghiệm thực tế. Đây cũng là sự kiện đầu tiên mình tham gia kể từ khi gia nhập FCAJ. :contentReference[oaicite:0]{index=0}
 
-"Văn hóa là thứ duy nhất còn lại khi một doanh nghiệp phá sản", một câu nói vô cùng nổi tiếng đã được anh Cường đưa ra để mở đầu cho buổi chia sẻ của mình. Trước đó khi nghĩ đến điều làm nên một công ty lớn mạnh, mình nghĩ nó phải nằm ở khả năng công ty đó có thể tạo ra lợi nhuận cao, có thể cung cấp ra thị trường những sản phẩm tốt. Tuy nhiên lịch sử đã chứng minh những công ty lớn mạnh nhất cũng có thể sụp đổ dễ dàng nếu như không xây dựng cho mình một văn hóa doanh nghiệp vững chắc. Đó cũng là cách mà những tập đoàn như aws có thể duy trì vị trí dẫn đầu trên thị trường trong suốt nhiều năm qua. Và tất nhiên văn hóa doanh nghiệp là yếu tố vô cùng quan trọng đối với mỗi cá nhân khi lựa chọn một môi trường làm việc, điều sẽ khiến bản thân sinh viên để lại được ấn tượng được với những nhà tuyển dụng.
+---
 
-### Những Gì Học Được
-Những kiến thức mình học được trong buổi event này đều vô cùng mới mẻ:
-- Mặc dù mình đã có tìm hiểu và biết đến role Data Analyst, nhưng những chia sẻ từ anh Đạt không nhàm chán một chút nào. Nó thực tế, đi sâu và cách mà một DA làm việc, phát triển bên trong một công ty như nào. Đây là những bài học, kinh nghiệm mà không thể nào tìm kiếm được qua sách vở hay bất kỳ đâu khác.
-- Còn đối với phần trình bày của anh Cường thì thực sự quá tuyệt vời, nó mở rộng tư duy của bản thân về cách mà một doanh nghiệp vận hành và cách để sinh viên có thể tự chuẩn bị cho bản thân để xây dựng hình tượng trước khi tìm cơ hội việc làm tại bất kỳ đâu
-- Và cuối cùng là phần DevOps hết sức đầy đủ từ anh Trọng, một lĩnh vực mà mình ít tìm hiểu tuy nhiên những tâm huyết mà anh dành cho buổi event là vô cùng đáng quý.
+## Danh Sách Diễn Giả
 
-### Trải nghiệm trong event
-Đây là event mang đến cho mình nhiều ấn tượng nhất, bới đó là lần đầu tiên mình được tiếp xúc và tìm hiểu về lĩnh vực cloud. Các anh chị diễn ra không chỉ mang đến các kiến thức bổ ích mà còn chia sẻ cho mình rất nhiều kinh nghiệm thực tế. Mình cảm thấy rất may mắn khi được tham gia event này, được gặp gỡ và học hỏi từ các anh chị. Quy trình tổ chức của các anh chị mentor FCAJ cũng vô cùng chuyên nghiệp, sự kiện gần 200 người tham dự tuy nhiên các khâu chuẩn bị cơ sở vật chất, thiết bị đến quản lý timeline đều được thực hiện một cách chỉn chu, tỉ mỉ. Và tất nhiên là event diễn ra vô cùng trơn tru, không có bất kì sự cố gì xảy ra. Mặc dù là lần đầu tiên mình tham gia một sự kiện có quy mô như thế này, tuy nhiên mình cảm thấy rất tự tin và thoải mái giao lưu với mọi người.
+Sự kiện có sự tham gia của nhiều diễn giả đến từ các doanh nghiệp và trường đại học:
 
-Là event đầu nên mình có một số thiếu sót trong việc ghi những khoảnh khắc đặc biệt, nhưng vẫn có được 1 khoảnh khắc dễ thương khi các anh chị mentor mở nhạc của Hieuthuhai. 
-![Khoảnh khắc vô cùng dễ thương cuối buổi event](/images/4-Events/4.3-Event3/Hieu2.jpg)
-![Ảnh tập thể](/images/4-Events/4.3-Event3/722709384_4487688904809051_5504640849504060712_n.jpg)
+- Anh Trần Trung Vinh – System Administrator tại Central Retail Group.
+- Anh Trương Huy Phước.
+- Anh Huỳnh Bảo – Cloud Native Developer tại Endava Vietnam.
+- Anh Lê Hoàng Gia Đại – HUTECH University.
+- Anh Nguyễn Quốc Bảo.
+- Anh Việt Phát – Swinburne University of Technology. :contentReference[oaicite:1]{index=1}
 
+---
+
+## Nội Dung Nổi Bật
+
+Sự kiện mang đến nhiều chủ đề thực tiễn về Cloud Computing và phát triển phần mềm.
+
+### Hành Trình Từ IT Helpdesk Đến Senior Sysadmin
+
+Diễn giả chia sẻ kinh nghiệm phát triển sự nghiệp từ IT Helpdesk lên Sysadmin thông qua quá trình tự học Linux, Networking và xây dựng môi trường Lab thực hành. Đồng thời nhấn mạnh tư duy vận hành hiện đại với Automation, Monitoring, Documentation và nguyên tắc **"Never test in production"**. :contentReference[oaicite:2]{index=2}
+
+### Nghệ Thuật Làm Việc Nhóm
+
+Buổi chia sẻ giới thiệu bốn nguyên tắc quan trọng của Teamwork gồm mục tiêu chung, đúng người đúng việc, giao tiếp hiệu quả và trách nhiệm cá nhân. Ngoài ra còn giới thiệu các công cụ như Trello, Slack, Discord và ClickUp để hỗ trợ cộng tác trong dự án. :contentReference[oaicite:3]{index=3}
+
+### Docker Và Cloud-native
+
+Diễn giả trình bày sự khác biệt giữa Virtual Machine và Docker Container, giải thích các thành phần như Dockerfile, Image và Container cũng như vai trò của Docker trong CI/CD, Microservices và Cloud-native Applications. :contentReference[oaicite:4]{index=4}
+
+### Machine Learning Và AWS Security
+
+Một chủ đề nổi bật khác là kết hợp AWS WAF với Machine Learning để xây dựng hệ thống phát hiện tấn công mạng. Giải pháp sử dụng mô hình LightGBM nhằm nâng cao khả năng phát hiện các cuộc tấn công mà các hệ thống Rule-based truyền thống khó xử lý. :contentReference[oaicite:5]{index=5}
+
+### AWS WebSocket Và GraphRAG
+
+Các diễn giả cũng giới thiệu kiến trúc Multiplayer Game sử dụng AWS WebSocket và Lambda theo mô hình Serverless, đồng thời trình bày GraphRAG trên Amazon Bedrock và Amazon Neptune nhằm xây dựng các hệ thống AI có khả năng suy luận trên Knowledge Graph. :contentReference[oaicite:6]{index=6}
+
+---
+
+## Những Gì Mình Học Được
+
+Sau sự kiện, mình rút ra nhiều bài học hữu ích:
+
+- Hiểu rõ hơn lộ trình phát triển từ Sysadmin đến Cloud và DevOps, cũng như tầm quan trọng của Linux, Networking và kỹ năng tự học.
+- Nắm được các nguyên tắc làm việc nhóm và cách sử dụng các công cụ quản lý dự án trong môi trường doanh nghiệp.
+- Hiểu rõ sự khác biệt giữa Virtual Machine và Docker, cũng như quy trình xây dựng ứng dụng Cloud-native.
+- Biết cách kết hợp Machine Learning với AWS WAF để nâng cao khả năng phát hiện tấn công mạng.
+- Tiếp cận kiến trúc Serverless trên AWS và xu hướng AI hiện đại với GraphRAG. :contentReference[oaicite:7]{index=7}
+
+---
+
+## Trải Nghiệm Cá Nhân
+
+Đây là sự kiện mang lại cho mình nhiều ấn tượng vì lần đầu tiên được tiếp cận một cách toàn diện với lĩnh vực Cloud Computing. Những chia sẻ từ các diễn giả giúp mình hiểu rõ hơn về môi trường làm việc thực tế, các công nghệ hiện đại như Docker, Serverless, AI và bảo mật trên AWS. Đồng thời, sự kiện cũng mang đến cho mình nhiều động lực để tiếp tục học tập và phát triển trong lĩnh vực điện toán đám mây. :contentReference[oaicite:8]{index=8}

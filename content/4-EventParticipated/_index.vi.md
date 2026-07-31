@@ -10,13 +10,13 @@ pre: " <b> 4. </b> "
 Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là một trải nghiệm đáng nhớ với những kiến thức mới, hay và bổ ích, cùng với đó là những món quà và những khoảnh khắc rất tuyệt vời.
 
 ### [Event 1](4.1-Event1/)
-&emsp;**Tên sự kiện:** FCAJ Community Day
+&emsp;**Tên sự kiện:** Event Day - Giao lưu hàng tuần FCAJ
   
-&emsp;**Thời gian:** 27/06/2026
+&emsp;**Thời gian:** 13/06/2026
   
-&emsp;**Hình thức:** Online
+&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Bến Nghé, Quận 1, TP. HCM
   
-&emsp;**Vai trò trong sự kiện:** Người xem qua live
+&emsp;**Vai trò trong sự kiện:** Người tham dự
 
 ---
 
@@ -34,8 +34,9 @@ Trong quá trình thực tập, em đã tham gia 3 events, với mỗi event là
 ### [Event 3](4.3-Event3/)
 &emsp;**Tên sự kiện:** Event Day - Giao lưu hàng tuần FCAJ
   
-&emsp;**Thời gian:** 13/06/2026
+&emsp;**Thời gian:** 06/06/2026
   
-&emsp;**Địa điểm:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Bến Nghé, Quận 1, TP. HCM
+&emsp;**Hình thức:** Tầng 26, tòa nhà Bitexco, số 02 đường Hải Triều, phường Bến Nghé, Quận 1, TP. HCM
   
 &emsp;**Vai trò trong sự kiện:** Người tham dự
+---

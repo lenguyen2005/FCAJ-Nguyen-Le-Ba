@@ -38,3 +38,4 @@ This was perhaps the most special event I have ever attended since I learned abo
 
 #### Some event photos
 ![Group photo](/images/4-Events/4.2-Event1/t%E1%BA%A1p%20the.jpg)
+![Team photo](/images/4-Events/4.2-Event1/anh-nhom.jpg)

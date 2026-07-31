@@ -34,5 +34,6 @@ Trong buổi event hôm đó, mình học được khá nhiều thứ cũng như
 Đây có lẽ là event đặc biệt nhất mà mình từng tham gia từ khi biết đến FCAJ. Không chỉ số lượng diễn giả mà số lượng khán giả cũng nhiều hơn những event bình thường gấp mấy lần. Hơn nữa không khí của buổi event ngày hôm ấy vô cùng thoải mái, có lẽ điều này là do các team đều khá trẻ và năng động, các bạn không chỉ chia sẻ kiến thức mà còn truyền động lực, đam mê sáng tạo của bản thân. Khá tiếc là thời gian không đủ nhiều để các nhóm có thể mở rộng thêm phần Q&A nhưng ngày hôm ấy cũng là một trải nghiệm vô vùng hữu ích. Có lẽ sau này mình cũng sẽ tìm kiếm cơ hội tham gia hackathon. 
 #### Một số hình ảnh khi tham gia sự kiện
 ![Ảnh tập thể](/images/4-Events/4.2-Event1/t%E1%BA%A1p%20the.jpg)
+![Ảnh chụp nhóm](/images/4-Events/4.2-Event1/anh-nhom.jpg)
 
 

@@ -9,13 +9,13 @@ pre: " <b> 4. </b> "
 During my internship, I participated in three events. Each one was a memorable experience that provided new, interesting, and useful knowledge, along with gifts and wonderful moments.
 
 ### [Event 1](4.1-Event1/)  
-&emsp;**Event Name:** FCAJ Community Day
+&emsp;**Event Name:** Event Day - FCAJ Weekly Networking  
   
-&emsp;**Date:** June 27, 2026
+&emsp;**Date:** June 13, 2026  
   
-&emsp;**Location:** Online
+&emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City  
   
-&emsp;**Role:** Video Attendee
+&emsp;**Role:** Attendee
 
 ---
 
@@ -33,7 +33,7 @@ During my internship, I participated in three events. Each one was a memorable e
 ### [Event 3](4.3-Event3/)  
 &emsp;**Event Name:** Event Day - FCAJ Weekly Networking  
   
-&emsp;**Date:** June 13, 2026  
+&emsp;**Date:** June 06, 2026  
   
 &emsp;**Location:** 26th Floor, Bitexco Tower, 02 Hai Trieu Street, Ben Nghe Ward, District 1, Ho Chi Minh City  
   

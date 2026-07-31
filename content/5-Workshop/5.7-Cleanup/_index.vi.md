@@ -1,37 +1,63 @@
 ---
 title : "Dọn dẹp tài nguyên"
-date : 2024-01-01
-weight : 6
+date : 2026-07-31
+weight : 7
 chapter : false
-pre : " <b> 5.6. </b> "
+pre : " <b> 5.7. </b> "
 ---
 
-#### Dọn dẹp tài nguyên
+#### Dọn dẹp Cluster
+1. Truy cập ECS Console
+2. Chọn Cluster edushare-cluster
+3. Ở tab Services, sau đó bấm *delete*
 
-Xin chúc mừng bạn đã hoàn thành xong lab này!
-Trong lab này, bạn đã học về các mô hình kiến trúc để truy cập Amazon S3 mà không sử dụng Public Internet.
+![Cluster Clean up](/images/5-Workshop/5.7-Cleanup/CleanUp_Cluster.png)
 
-+ Bằng cách tạo Gateway endpoint, bạn đã cho phép giao tiếp trực tiếp giữa các tài nguyên EC2 và Amazon S3, mà không đi qua Internet Gateway.
-Bằng cách tạo Interface endpoint, bạn đã mở rộng kết nối S3 đến các tài nguyên chạy trên trung tâm dữ liệu trên chỗ của bạn thông qua AWS Site-to-Site VPN hoặc Direct Connect.
+#### Dọn dẹp Load Balancer và Target Groups
+1. Ở cột trái, vào Load balancers, tick chọn edushare-alb, chọn Action và Delete load balancer.
 
-#### Dọn dẹp
-1. Điều hướng đến Hosted Zones trên phía trái của bảng điều khiển Route 53. Nhấp vào tên của  s3.us-east-1.amazonaws.com zone. Nhấp vào Delete và xác nhận việc xóa bằng cách nhập từ khóa "delete".
+![Load balancers Clean up](/images/5-Workshop/5.7-Cleanup/LB_Delete.png)
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/delete-zone.png)
+2. Ở cột trái, vào Target groups, tick chọn edushare-tg và edushare-frontend-tg, chọn Action và Delete.
 
-2. Disassociate Route 53 Resolver Rule - myS3Rule from "VPC Onprem" and Delete it. 
+![Definition Clean up](/images/5-Workshop/5.7-Cleanup/Dereg_Task_Def.png)
 
-![hosted zone](/images/5-Workshop/5.6-Cleanup/vpc.png)
+#### Xóa Database và Cache
+1. Truy cập RDS Console vào Databases. Tick chọn edushare-db, chọn Action và Delete.
 
-4.Mở console của CloudFormation và xóa hai stack CloudFormation mà bạn đã tạo cho bài thực hành này:
-+ PLOnpremSetup
-+ PLCloudSetup
+![RDS Clean up](/images/5-Workshop/5.7-Cleanup/RDS_Delete.png)
 
-![delete stack](/images/5-Workshop/5.6-Cleanup/delete-stack.png)
+2. ElastiCache Valkey: Truy cập ElastiCache Console -> Valkey caches. Tick chọn edushare-redis, bấm Delete không tạo backup nếu được hỏi.
 
-5. Xóa các S3 bucket
+![Cache Clean up](/images/5-Workshop/5.7-Cleanup/Cache_Delete.png)
 
-+ Mở bảng điều khiển S3
-+ Chọn bucket chúng ta đã tạo cho lab, nhấp chuột và xác nhận là empty. Nhấp Delete và xác nhận delete.
-+ 
-![delete s3](/images/5-Workshop/5.6-Cleanup/delete-s3.png)
+#### Xóa NAT Gateway và Elastic IP
+Truy cập VPC Console -> NAT Gateways. Chọn edushare-nat-gw, chọn Action -> Delete NAT gateway. Gõ chữ delete để xác nhận.
+
+![NAT Clean up](/images/5-Workshop/5.7-Cleanup/NAT_Delete.png)
+
+#### Xóa S3 và Secrets Manager
+1. Truy cập S3 Console.
+2. Tick chọn bucket, bấm nút Empty trước, gõ delete để xóa hết file bên trong.
+3. Sau khi Empty thành công, chọn lại Bucket đó và bấm nút Delete, gõ tên bucket để xác nhận xóa.
+4. Truy cập Secrets Manager, chọn edushare/env-backend-secrets và Actions rồi Delete secret.
+
+![S3 Clean up](/images/5-Workshop/5.7-Cleanup/S3_Delete.png)
+
+![Secret Manager Clean up](/images/5-Workshop/5.7-Cleanup/NAT_Delete.png)
+
+#### Xóa VPC Subnet và Security Group
+Truy cập VPC vào chọn vào VPC và xóa
+
+![VPC Clean up](/images/5-Workshop/5.7-Cleanup/VPC_Delete.png)
+
+####Xóa IAM Roles và CloudWatch
+1. Truy cập IAM Console và Roles. Tìm và xóa 2 role: edushare-ecs-execution-role và edushare-ecs-task-role.
+
+![IAM Clean up](/images/5-Workshop/5.7-Cleanup/IAM_Delete.png)
+
+2. Truy cập CloudWatch Console và Log groups. Tìm và xóa log group: /aws/ecs/edushare-api và của frontend nếu có.
+
+![CloudWatch Clean up](/images/5-Workshop/5.7-Cleanup/CloudWatch_Delete.png)
+
+

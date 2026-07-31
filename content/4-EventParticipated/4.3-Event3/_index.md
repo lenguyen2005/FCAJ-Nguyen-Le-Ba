@@ -1,38 +1,70 @@
 ---
-title: "Event 3"
-date: 2024-01-01
-weight: 3
+title: "Event 1"
+date: 2026-06-01
+weight: 1
 chapter: false
-pre: " <b> 4.3. </b> "
+pre: " <b> 4.1. </b> "
 ---
 
-# Summary Report: “Event Day - 06/13/2026”
+# Reflection Report "Event Day - FCAJ Weekly Meetup - 06/06/2026"
 
-### Event Objectives
-This is a weekly networking event of the FCAJ program, held every Saturday. This is also the first event I have attended since joining FCAJ. The goal of this event is to help FCAJ members gain newer perspectives on products, solutions, and technologies applied in practice, as well as have the opportunity to network with experienced seniors working in the cloud computing industry.
+## Purpose of the Event
 
-### Speakers
-The list of speakers in the event includes: 
-- Mr. Pham Thanh Dat, currently working at Colgate, sharing about his journey to become a Data Analyst.
-![Mr. Nhat sharing about Data Analyst experience](/images/4-Events/4.3-Event3/ANhat.jpg)
-- Mr. Cuong, also currently working at Colgate, with a very unique topic, "corporate culture".
-![Mr. Cuong sharing about DevOps experience](/images/4-Events/4.3-Event3/ACuong.jpg)
-- Mr. Truong Hoang Trong sharing perspectives and important concepts of DevOps.
+This weekly FCAJ event was organized to help members stay updated with emerging technologies, learn from engineers working in the Cloud Computing industry, and gain practical knowledge through technical sharing sessions. It was also the first FCAJ event that I attended after joining the community.
 
-### Key Highlights
-All the speakers in the event were excellent with their own topics. However, Mr. Cuong's presentation certainly left the most impression on me. Mr. Cuong's topic revolved around "corporate culture", which had nothing to do with technical skills, but it was extremely useful for me while in the process of seeking my dream job.
+---
 
-"Culture is the only thing left when a business goes bankrupt", a very famous quote that Mr. Cuong brought up to open his sharing session. Previously, when thinking about what makes a company strong, I thought it must lie in its ability to generate high profits, or to provide good products to the market. However, history has proven that even the strongest companies can easily collapse if they do not build a solid corporate culture for themselves. That is also how corporations like AWS have maintained their leading position in the market over the years. And of course, corporate culture is a very important factor for every individual when choosing a working environment, which will help students leave a lasting impression on recruiters.
+## Speakers
 
-### Key Takeaways
-The knowledge I learned in this event was all very fresh:
-- Although I have researched and known about the Data Analyst role, the sharings from Mr. Dat were not boring at all. They were practical, diving deep into how a DA works and develops inside a company. These are lessons and experiences that cannot be found in books or anywhere else.
-- As for Mr. Cuong's presentation, it was absolutely wonderful, expanding my mindset on how a business operates and how students can prepare themselves to build an image before seeking job opportunities anywhere.
-- And finally, a very comprehensive DevOps section from Mr. Trong, a field that I rarely look into, yet the dedication he put into the event was highly appreciated.
+The event featured several speakers from both industry and academia:
 
-### Event Experience
-This is the event that left me with the most impressions, because it was the first time I was exposed to and learned about the cloud field. The speakers not only brought useful knowledge but also shared a lot of practical experience with me. I felt very lucky to participate in this event, meeting and learning from the seniors. The organizational process of the FCAJ mentors was also extremely professional; despite nearly 200 attendees, the preparation stages from facilities and equipment to timeline management were executed very meticulously and carefully. And of course, the event went very smoothly without any incidents. Even though this was the first time I participated in an event of this scale, I felt very confident and comfortable networking with everyone.
+- Mr. Trần Trung Vinh – System Administrator at Central Retail Group.
+- Mr. Trương Huy Phước.
+- Mr. Huỳnh Bảo – Cloud Native Developer at Endava Vietnam.
+- Mr. Lê Hoàng Gia Đại – HUTECH University.
+- Mr. Nguyễn Quốc Bảo.
+- Mr. Việt Phát – Swinburne University of Technology.
 
-Since it was the first event, I had some shortcomings in capturing special moments, but I still got 1 cute moment when the mentors played Hieuthuhai's music.
-![Cute moment at the end of the event](/images/4-Events/4.3-Event3/Hieu2.jpg)
-![Group photo](/images/4-Events/4.3-Event3/722709384_4487688904809051_5504640849504060712_n.jpg)
+---
+
+## Key Highlights
+
+The event covered several practical topics related to Cloud Computing and modern software development.
+
+### From IT Helpdesk to Senior System Administrator
+
+The speaker shared his career journey from IT Helpdesk to System Administrator by continuously learning Linux, Networking, and building personal lab environments. He also emphasized modern operational practices such as Automation, Monitoring, Documentation, and the principle of **"Never test in production."**
+
+### Teamwork in Software Development
+
+This session introduced four essential principles of effective teamwork: having a common goal, assigning the right people to the right tasks, maintaining effective communication, and taking individual responsibility. Several collaboration tools such as Trello, Slack, Discord, and ClickUp were also presented.
+
+### Docker and Cloud-Native Applications
+
+The speaker explained the differences between Virtual Machines and Docker Containers, introduced Dockerfile, Images, and Containers, and discussed Docker's important role in CI/CD pipelines, Microservices, and Cloud-Native application development.
+
+### Machine Learning and AWS Security
+
+Another interesting topic demonstrated how AWS WAF can be combined with Machine Learning to improve cyberattack detection. A LightGBM model was used to detect attacks that traditional rule-based systems may struggle to identify.
+
+### AWS WebSocket and GraphRAG
+
+The speakers also introduced a Serverless Multiplayer Game architecture using AWS WebSocket and AWS Lambda. In addition, they presented GraphRAG with Amazon Bedrock and Amazon Neptune for building AI systems capable of reasoning over Knowledge Graphs.
+
+---
+
+## What I Learned
+
+After attending the event, I gained several valuable insights:
+
+- Better understand the career path from System Administration to Cloud Computing and DevOps, as well as the importance of Linux, Networking, and self-learning.
+- Learn effective teamwork principles and project management tools commonly used in professional environments.
+- Understand the differences between Virtual Machines and Docker, along with the fundamentals of Cloud-Native application development.
+- Learn how Machine Learning can be integrated with AWS WAF to enhance cybersecurity.
+- Gain an introduction to Serverless architecture on AWS and modern AI technologies such as GraphRAG.
+
+---
+
+## Personal Reflection
+
+This event left a strong impression on me because it was my first opportunity to explore Cloud Computing from multiple perspectives. The speakers provided valuable insights into real-world engineering practices and introduced modern technologies such as Docker, Serverless computing, Artificial Intelligence, and AWS Security. Overall, the event inspired me to continue learning and developing my skills in Cloud Computing.
