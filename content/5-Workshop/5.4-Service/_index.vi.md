@@ -14,8 +14,6 @@ Trong phần này, chúng ta sẽ khởi tạo các dịch vụ lưu trữ dữ 
 - **Storage & Security:** Tạo **Amazon S3 Bucket** và cấu hình chính sách CORS, cho phép Frontend sử dụng phương thức PUT/GET trực tiếp thông qua Presigned URL. Đồng thời, sử dụng **AWS Secrets Manager** để gom và bảo mật các biến môi trường nhạy cảm (DATABASE_URL, REDIS_HOST, JWT_SECRET, S3_BUCKET_NAME).
 - **Load Balancer & SSL:** Xin cấp phát chứng chỉ SSL/TLS miễn phí qua dịch vụ **ACM** (tại region `us-east-1`), sau đó thiết lập **ALB** cùng các **Target Group** ở khu vực chính để điều phối lưu lượng truy cập an toàn vào các container Fargate sau này.
 
-![overview](/images/5-Workshop/5.4-Data-Edge/diagram.png)
-
 #### Nội dung
 - [1. Create S3](5.4.1-s3_cors/)
 - [2. Tạo Database](5.4.2-rds/)

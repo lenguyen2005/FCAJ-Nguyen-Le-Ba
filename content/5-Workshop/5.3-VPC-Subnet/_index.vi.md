@@ -10,8 +10,6 @@ pre : " <b> 5.3. </b> "
 
 Trong phần này, bạn sẽ xây dựng nền tảng mạng cốt lõi cho hệ thống EduShare. Chúng ta sẽ tạo một **VPC** với các Subnet được cô lập, cấu hình các Gateways, và thiết lập ranh giới bảo mật nghiêm ngặt bằng **Security Groups** theo mô hình Zero-Trust. Cuối cùng, bạn sẽ tạo các **IAM Roles** cần thiết để cho phép các container ECS Fargate tương tác an toàn với các dịch vụ AWS khác.
 
-![overview](/images/5-Workshop/5.3-Networking/diagram.png)
-
 #### Nội dung
 
 - [1. Tạo VPC và Subnet](5.3.1-vpc-subnet/)

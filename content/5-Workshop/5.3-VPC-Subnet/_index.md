@@ -10,8 +10,6 @@ pre : " <b> 5.3. </b> "
 
 In this section, you will build the core network foundation for the EduShare system. We will create a **VPC** with isolated subnets, configure internet and NAT gateways, and establish strict security boundaries using **Security Groups** Zero-Trust approach. Finally, you will provision the necessary **IAM Roles** to allow our ECS Fargate containers to securely interact with other AWS services.
 
-![overview](/images/5-Workshop/5.3-Networking/diagram.png)
-
 #### Content
 
 - [1. Create VPC and Subnetting](5.3.1-vpc-subnet/)

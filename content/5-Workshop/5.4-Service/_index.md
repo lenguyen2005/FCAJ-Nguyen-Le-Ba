@@ -14,8 +14,6 @@ In this section, we will provision the foundational data storage services and se
 - **Storage & Security:** Create an **Amazon S3 Bucket** configured with custom CORS policies to allow the frontend to upload files directly via Presigned URLs. We will also use **AWS Secrets Manager** to securely centralize sensitive credentials (DATABASE_URL, REDIS_HOST, JWT_SECRET, S3_BUCKET_NAME).
 - **Load Balancer & SSL:** Request a free SSL/TLS certificate via **AWS Certificate Manager (ACM)** in the `us-east-1` region, then set up an **ALB** and **Target Groups** in our main region to securely route incoming traffic to our future Fargate containers.
 
-![overview](/images/5-Workshop/5.4-Data-Edge/diagram.png)
-
 #### Content
 - [1. Create S3](5.4.1-s3_cors/)
 - [2. Create Database](5.4.2-rds/)
