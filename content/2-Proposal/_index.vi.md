@@ -13,7 +13,9 @@ pre: " <b> 2. </b> "
 
 ### 1. Tóm tắt điều hành
 
-**EduShare** là một nền tảng web cho phép sinh viên, học viên và giảng viên chia sẻ tài liệu học tập một cách an toàn và hiệu quả. Hệ thống backend được xây dựng bằng **NestJS**, đóng gói thành Docker container và triển khai trên **Amazon ECS Fargate**, đảm bảo khả năng mở rộng linh hoạt và không cần quản lý hạ tầng máy chủ.
+**EduShare** là nền tảng chia sẻ tài liệu học tập được phát triển theo mô hình Fullstack. Hệ thống gồm frontend được xây dựng bằng **Next.js** và backend được xây dựng bằng **NestJS**. Backend được đóng gói thành Docker container và triển khai trên **Amazon ECS Fargate**, trong khi frontend được triển khai riêng, đảm bảo khả năng mở rộng linh hoạt và không cần quản lý hạ tầng máy chủ.
+
+Kiến trúc triển khai sử dụng Amazon ECS Fargate, Amazon RDS PostgreSQL, Amazon S3, Amazon CloudFront, AWS WAF, Amazon ElastiCache Redis, AWS Secrets Manager và GitHub Actions để xây dựng một nền tảng chia sẻ tài liệu học tập có khả năng mở rộng, bảo mật và tự động hóa triển khai.
 
 Kiến trúc tận dụng các dịch vụ AWS để đảm bảo:
 - **Bảo mật**: AWS WAF, Secrets Manager, VPC Private Subnet.
@@ -34,7 +36,8 @@ EduShare cung cấp một nền tảng web tập trung nơi người dùng có t
 - Đăng ký, đăng nhập bằng JWT Authentication.
 - Upload tài liệu (PDF, DOCX, PPTX) lên Amazon S3 qua Presigned URL.
 - Tìm kiếm và tải tài liệu từ những người dùng khác.
-- Quản lý hồ sơ cá nhân và avatar.
+- Phân loại tài liệu theo danh mục.
+- Hệ thống Gamification (điểm EXP, Level, Leaderboard).
 
 ---
 
@@ -48,13 +51,13 @@ Kiến trúc bao gồm 4 lớp chính:
 
 **Lớp tiếp cận bên ngoài (External Access)**
 - Người dùng truy cập qua Amazon Route 53 (custom domain).
-- Traffic đi qua Amazon CloudFront (CDN) → AWS WAF (bảo vệ) → Internet Gateway → Application Load Balancer.
-- Upload file lớn đi trực tiếp lên S3 qua Presigned URL.
+- Traffic đi qua Amazon CloudFront (CDN) → AWS WAF (bảo vệ) → Application Load Balancer → Amazon ECS Fargate.
+- Frontend yêu cầu Backend tạo Presigned URL, sau đó trình duyệt upload trực tiếp lên Amazon S3 nhằm giảm tải cho ECS và tăng hiệu năng.
 
 **Lớp ứng dụng (Application Layer - Amazon VPC)**
 - Public Subnet: Application Load Balancer, NAT Gateway.
-- Private Application Subnet: Amazon ECS Cluster chạy Fargate Tasks (NestJS), có App Auto Scaling.
-- Private DB Subnet: Amazon RDS PostgreSQL (Single-AZ).
+- Private Application Subnet: Amazon ECS Cluster chạy ECS Service và Fargate Tasks (NestJS), hỗ trợ App Auto Scaling.
+- Private DB Subnet: Amazon RDS PostgreSQL.
 
 **Lớp lưu trữ và hỗ trợ (Storage & Supporting Services)**
 - Amazon S3: Lưu trữ tài liệu, hình ảnh, avatar.
@@ -70,11 +73,12 @@ Kiến trúc bao gồm 4 lớp chính:
 | Thành phần | Công nghệ |
 | ---------- | --------- |
 | Backend Framework | NestJS (TypeScript) |
+| Frontend Framework | Next.js (React + TypeScript) |
 | Container Runtime | Docker (multi-stage build) |
 | Container Orchestration | Amazon ECS Fargate |
 | Container Registry | Amazon ECR |
 | CI/CD | GitHub Actions + IAM OIDC |
-| Database | Amazon RDS PostgreSQL (Single-AZ) |
+| Database | Amazon RDS PostgreSQL |
 | Cache | ElastiCache Redis |
 | File Storage | Amazon S3 + Presigned URL |
 | CDN & Edge | Amazon CloudFront |
@@ -115,7 +119,6 @@ Kiến trúc bao gồm 4 lớp chính:
 
 | Rủi ro | Mức độ | Giải pháp |
 | ------ | ------ | --------- |
-| RDS Single-AZ gặp sự cố | Trung bình | Snapshot tự động hàng ngày, có thể nâng cấp lên Multi-AZ |
 | ECS Task crash | Thấp | ECS Service tự động khởi động lại Task |
 | Chi phí vượt ngân sách | Thấp | CloudWatch Budget Alarm |
 | Bảo mật credentials | Thấp | AWS Secrets Manager + IAM Task Role |
@@ -124,7 +127,10 @@ Kiến trúc bao gồm 4 lớp chính:
 
 ### 8. Kết quả kỳ vọng
 
-- Hệ thống backend NestJS chạy ổn định trên Amazon ECS Fargate với auto scaling.
-- CI/CD pipeline tự động từ GitHub đến ECS trong vòng dưới 5 phút.
-- Người dùng có thể đăng ký, đăng nhập, upload và tải tài liệu thành công.
+- Backend NestJS được container hóa bằng Docker và triển khai thành công trên Amazon ECS Fargate.
+- CI/CD Pipeline tự động build, push image lên Amazon ECR và triển khai lên ECS sau mỗi lần merge vào nhánh chính.
+- Hệ thống hỗ trợ upload tài liệu trực tiếp lên Amazon S3 bằng Presigned URL.
+- Ứng dụng được phân phối thông qua CloudFront và bảo vệ bởi AWS WAF.
+- Dữ liệu được lưu trữ trên Amazon RDS PostgreSQL và cache bằng ElastiCache Redis.
+- Hệ thống có khả năng giám sát bằng Amazon CloudWatch và mở rộng theo tải nhờ ECS Service Auto Scaling.
 - Tài liệu Workshop hoàn chỉnh bằng tiếng Việt và tiếng Anh.

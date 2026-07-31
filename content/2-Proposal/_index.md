@@ -7,124 +7,130 @@ pre: " <b> 2. </b> "
 ---
 
 # EduShare
-## A Document Sharing Platform Deployed on AWS ECS Fargate
+## A Learning Resource Sharing Platform Deployed on AWS ECS Fargate
 
 ---
 
 ### 1. Executive Summary
 
-**EduShare** is a web platform that enables students, learners, and instructors to securely and efficiently share learning materials. The system backend is built with **NestJS**, containerized as a Docker image, and deployed on **Amazon ECS Fargate**, ensuring flexible scalability without the need to manage server infrastructure.
+**EduShare** is a full-stack learning resource sharing platform. The system consists of a frontend built with **Next.js** and a backend built with **NestJS**. The backend is containerized using Docker and deployed on **Amazon ECS Fargate**, while the frontend is deployed separately, providing scalable infrastructure without the need to manage servers.
 
-The architecture leverages AWS services to ensure:
-- **Security**: AWS WAF, Secrets Manager, VPC Private Subnets.
-- **Performance**: CloudFront CDN, ElastiCache Redis, App Auto Scaling.
-- **Automation**: CI/CD pipeline with GitHub Actions and Amazon ECR.
+The deployment architecture leverages Amazon ECS Fargate, Amazon RDS for PostgreSQL, Amazon S3, Amazon CloudFront, AWS WAF, Amazon ElastiCache for Redis, AWS Secrets Manager, and GitHub Actions to build a secure, scalable, and fully automated learning resource sharing platform.
+
+The AWS architecture provides:
+- **Security**: AWS WAF, AWS Secrets Manager, and VPC Private Subnets.
+- **Performance**: Amazon CloudFront CDN, Amazon ElastiCache for Redis, and ECS Service Auto Scaling.
+- **Automation**: CI/CD pipeline using GitHub Actions and Amazon ECR.
 
 ---
 
 ### 2. Problem Statement
 
-**Current Problem**
+**Current Challenges**
 
-Students and instructors currently struggle to share and find learning materials due to the lack of a centralized, secure, and easy-to-use platform. Documents are scattered across multiple channels (email, chat groups, personal cloud storage), making retrieval and management time-consuming.
+Students and lecturers often face difficulties in sharing and discovering learning resources due to the lack of a centralized, secure, and user-friendly platform. Learning materials are scattered across multiple channels, such as email, chat groups, and personal cloud storage, making them difficult to organize and search efficiently.
 
 **Proposed Solution**
 
 EduShare provides a centralized web platform where users can:
-- Register and log in using JWT Authentication.
-- Upload documents (PDF, DOCX, PPTX) to Amazon S3 via Presigned URLs.
-- Search and download documents shared by others.
-- Manage their personal profile and avatar.
+- Register and authenticate using JWT Authentication.
+- Upload learning materials (PDF, DOCX, PPTX) to Amazon S3 using Presigned URLs.
+- Search for and download learning resources shared by other users.
+- Organize learning materials using categories.
+- Participate in the Gamification system (EXP, Levels, and Leaderboard).
 
 ---
 
 ### 3. Solution Architecture
 
-The architecture consists of 4 main layers:
+The architecture consists of four main layers:
 
-**CI/CD Pipeline Layer**
-- Developer pushes code to the GitHub Repository.
-- GitHub Actions automatically builds the Docker image, pushes it to Amazon ECR, and deploys it to Amazon ECS.
+**CI/CD Layer (CI/CD Pipeline)**
+- Developers push source code to a GitHub repository.
+- GitHub Actions automatically builds Docker images, pushes them to Amazon ECR, and deploys them to Amazon ECS.
 
 **External Access Layer**
-- Users access the platform via Amazon Route 53 (custom domain).
-- Traffic flows through Amazon CloudFront (CDN) → AWS WAF (protection) → Internet Gateway → Application Load Balancer.
-- Large file uploads go directly to S3 via Presigned URLs.
+- Users access the application through Amazon Route 53 (custom domain).
+- Traffic flows through Amazon CloudFront (CDN) → AWS WAF → Application Load Balancer → Amazon ECS Fargate.
+- The frontend requests a Presigned URL from the backend, allowing the browser to upload files directly to Amazon S3, reducing the workload on ECS and improving performance.
 
 **Application Layer (Amazon VPC)**
-- Public Subnet: Application Load Balancer, NAT Gateway.
-- Private Application Subnet: Amazon ECS Cluster running Fargate Tasks (NestJS), with App Auto Scaling.
-- Private DB Subnet: Amazon RDS PostgreSQL (Single-AZ).
+- Public Subnet: Application Load Balancer and NAT Gateway.
+- Private Application Subnet: Amazon ECS Cluster running ECS Services and Fargate Tasks (NestJS) with App Auto Scaling.
+- Private Database Subnet: Amazon RDS for PostgreSQL.
 
-**Storage & Supporting Services**
-- Amazon S3: Storage for documents, images, and avatars.
-- ElastiCache Redis: Cache for sessions and frequently queried data.
-- AWS Secrets Manager: Manages credentials (DB password, JWT secret).
-- Amazon CloudWatch Logs: System monitoring and logging.
-- IAM Task Role: Grants ECS containers permissions to access AWS services.
+**Storage & Supporting Services Layer**
+- Amazon S3: Stores learning materials, images, and user avatars.
+- Amazon ElastiCache for Redis: Caches sessions and frequently accessed data.
+- AWS Secrets Manager: Manages sensitive credentials (database password and JWT secret).
+- Amazon CloudWatch Logs: Monitors and collects application logs.
+- IAM Task Role: Grants ECS containers secure access to AWS services.
 
 ---
 
-### 4. Technical Implementation
+### 4. Technical Stack
 
 | Component | Technology |
-| --------- | ---------- |
+| ---------- | ---------- |
 | Backend Framework | NestJS (TypeScript) |
-| Container Runtime | Docker (multi-stage build) |
+| Frontend Framework | Next.js (React + TypeScript) |
+| Container Runtime | Docker (Multi-stage Build) |
 | Container Orchestration | Amazon ECS Fargate |
 | Container Registry | Amazon ECR |
 | CI/CD | GitHub Actions + IAM OIDC |
-| Database | Amazon RDS PostgreSQL (Single-AZ) |
-| Cache | ElastiCache Redis |
-| File Storage | Amazon S3 + Presigned URL |
+| Database | Amazon RDS for PostgreSQL |
+| Cache | Amazon ElastiCache for Redis |
+| File Storage | Amazon S3 + Presigned URLs |
 | CDN & Edge | Amazon CloudFront |
-| Security | AWS WAF, Secrets Manager, VPC |
-| DNS | Amazon Route 53 + ACM SSL |
+| Security | AWS WAF, AWS Secrets Manager, Amazon VPC |
+| DNS | Amazon Route 53 + AWS Certificate Manager (ACM) |
 | Monitoring | Amazon CloudWatch Logs & Alarms |
 
 ---
 
-### 5. Timeline & Milestones
+### 5. Roadmap & Milestones
 
-| Week | Phase | Content |
-| ---- | ----- | ------- |
-| Week 4 | Design | Finalize project topic, design architecture, learn VPC and ECS basics |
-| Week 5 | Backend Development | Build NestJS, Dockerfile, ECR, GitHub Actions CI/CD |
-| Week 6 | Infrastructure Deployment | ECS Fargate, ALB, RDS, Redis, Secrets Manager |
-| Week 7 | Security & Integration | CloudFront, WAF, Route 53, S3 Presigned URL |
-| Week 8 | Finalization | Workshop documentation, demo, deploy to GitHub Pages |
+| Week | Phase | Activities |
+| ---- | ----- | ---------- |
+| Week 4 | Design | Finalize the project topic, design the architecture, and study the fundamentals of Amazon VPC and Amazon ECS |
+| Week 5 | Backend Development | Develop the NestJS backend, create the Dockerfile, configure Amazon ECR, and implement the GitHub Actions CI/CD pipeline |
+| Week 6 | Infrastructure Deployment | Deploy Amazon ECS Fargate, Application Load Balancer, Amazon RDS, Amazon ElastiCache, and AWS Secrets Manager |
+| Week 7 | Security & Integration | Configure Amazon CloudFront, AWS WAF, Amazon Route 53, and Amazon S3 Presigned URLs |
+| Week 8 | Finalization | Prepare the workshop, documentation, demonstration, and deploy the documentation to GitHub Pages |
 
 ---
 
-### 6. Budget Estimation
+### 6. Estimated Budget
 
 | Service | Estimated Cost (USD/month) |
-| ------- | ------------------------- |
-| Amazon ECS Fargate (0.5 vCPU, 1 GB) | ~$15 |
-| Amazon RDS PostgreSQL db.t3.micro | ~$15 |
-| ElastiCache Redis cache.t3.micro | ~$12 |
-| Amazon CloudFront (10 GB transfer) | ~$1 |
-| Amazon S3 (10 GB storage) | ~$0.23 |
-| Application Load Balancer | ~$16 |
-| NAT Gateway | ~$32 |
-| **Total Estimated** | **~$91 USD/month** |
+| ------- | -------------------------- |
+| Amazon ECS Fargate (0.5 vCPU, 1 GB) | ~15 |
+| Amazon RDS for PostgreSQL (db.t3.micro) | ~15 |
+| Amazon ElastiCache for Redis (cache.t3.micro) | ~12 |
+| Amazon CloudFront (10 GB data transfer) | ~1 |
+| Amazon S3 (10 GB storage) | ~0.23 |
+| Application Load Balancer | ~16 |
+| NAT Gateway | ~32 |
+| **Total Estimated Cost** | **~91 USD/month** |
 
 ---
 
 ### 7. Risk Assessment
 
-| Risk | Severity | Mitigation |
-| ---- | -------- | ---------- |
-| RDS Single-AZ failure | Medium | Daily automatic snapshots; can upgrade to Multi-AZ |
-| ECS Task crash | Low | ECS Service automatically restarts the Task |
-| Budget overrun | Low | CloudWatch Budget Alarm |
-| Credentials security | Low | AWS Secrets Manager + IAM Task Role |
+| Risk | Impact | Mitigation |
+| ---- | ------ | ---------- |
+| ECS Task failure | Low | ECS Service automatically restarts failed tasks |
+| Budget overrun | Low | AWS Budget Alerts and CloudWatch monitoring |
+| Credential exposure | Low | AWS Secrets Manager and IAM Task Roles |
 
 ---
 
 ### 8. Expected Outcomes
 
-- A stable NestJS backend running on Amazon ECS Fargate with auto scaling.
-- A fully automated CI/CD pipeline from GitHub to ECS in under 5 minutes.
-- Users can successfully register, log in, upload, and download documents.
-- A complete bilingual Workshop documentation in Vietnamese and English.
+- The NestJS backend is successfully containerized with Docker and deployed on Amazon ECS Fargate.
+- The CI/CD pipeline automatically builds Docker images, pushes them to Amazon ECR, and deploys them to Amazon ECS whenever changes are merged into the main branch.
+- The system supports direct file uploads to Amazon S3 using Presigned URLs.
+- The application is distributed through Amazon CloudFront and protected by AWS WAF.
+- Data is stored in Amazon RDS for PostgreSQL and cached using Amazon ElastiCache for Redis.
+- The system is monitored using Amazon CloudWatch and automatically scales based on workload through ECS Service Auto Scaling.
+- Complete workshop documentation is available in both Vietnamese and English.
